@@ -265,9 +265,9 @@ sys.path.insert(0, "/var/www/catalog/catalog/venv3/lib/python3.5/site-packages")
 * Connected as ```grader``` run ```sudo tail /var/log/apache2/error.log```
 
 ### Helpful resources and thankful to:
-* [https://stackoverflow.com forums](https://stackoverflow.com)
-* [https://github.com/ forums](https://github.com/)
-* [https://askubuntu.com/ forums](https://askubuntu.com/)
+* [Stackoverflow.com](https://stackoverflow.com) forums
+* [Github.com](https://github.com/) forums
+* [Askubuntu.com/](https://askubuntu.com/) forums
 * [Udacity's Students Hub](https://knowledge.udacity.com/)
 * [Digital Ocean](https://www.digitalocean.com/community/tutorials)
 * [ashutosh-sharma/Linux-Server-Configuration-Project-6-FSND-Udacity](https://github.com/ashutosh-sharma/Linux-Server-Configuration-Project-6-FSND-Udacity)
