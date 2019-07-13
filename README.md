@@ -147,7 +147,7 @@ Step3:
 
 ### Authenticate login through Google
 
-* In [Google Cloud Plateform](https://console.cloud.google.com/) click ```APIs & services``` on left menu and then on ```Credentials```.
+* In [Google Cloud Platform](https://console.cloud.google.com/) click ```APIs & services``` on left menu and then on ```Credentials```.
 * Click on ```Create Credentials``` and then on ```OAuth client ID``` 
 * Add ```http://<PUBLIC ID ADDRESS>``` and ```http://<PUBLIC ID ADDRESS>.xip.io``` as authorized JavaScript origins.
 * ```http://<PUBLIC ID ADDRESS>.xip.io``` will also be added as an authorized JavaScript origins in the main app configurations - if error, click on the error link and add the URL as an authorized URL
