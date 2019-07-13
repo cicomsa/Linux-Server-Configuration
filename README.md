@@ -249,7 +249,7 @@ sys.path.insert(0, "/var/www/catalog/catalog/venv3/lib/python3.5/site-packages")
 * Run ```cd /var/www/catalog/catalog/```, ```. venv3/bin/activate```, ```python3 database.py``` to populate database
 * Run ```deactivate```
 
-# Disable the default Apache site
+### Disable the default Apache site
 
 * Connected as ```grader``` run ```sudo a2dissite 000-default.conf``` and ```sudo service apache2 reload```
 
@@ -267,9 +267,9 @@ sys.path.insert(0, "/var/www/catalog/catalog/venv3/lib/python3.5/site-packages")
 ### Helpful resources and thankful to:
 * [Stackoverflow.com](https://stackoverflow.com) forums
 * [Github.com](https://github.com/) forums
-* [Askubuntu.com/](https://askubuntu.com/) forums
+* [Askubuntu.com](https://askubuntu.com/) forums
 * [Udacity's Students Hub](https://knowledge.udacity.com/)
-* [Digital Ocean](https://www.digitalocean.com/community/tutorials)
+* [Digital Ocean](https://www.digitalocean.com/community/tutorials) tutorials
 * [ashutosh-sharma/Linux-Server-Configuration-Project-6-FSND-Udacity](https://github.com/ashutosh-sharma/Linux-Server-Configuration-Project-6-FSND-Udacity)
 * [boisalai/udacity-linux-server-configuration](https://github.com/boisalai/udacity-linux-server-configuration/tree/8880a6f69ef47580bec84e55df496e4b3f247550)
 * [golgtwins/Udacity-P7-Linux-Server-Configuration](https://libraries.io/github/golgtwins/Udacity-P7-Linux-Server-Configuration)
