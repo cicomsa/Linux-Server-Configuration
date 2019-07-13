@@ -55,7 +55,7 @@ In your instance server run:
 
 On [AWS Lightsail](https://lightsail.aws.amazon.com/ls/webapp/home/instances):
 * Click on the three vertical dots on your instance and then on ```Manage```
-* Click on ````Networking``` and in the Firewall section click on ``` Edit rules```
+* Click on ```Networking``` and in the Firewall section click on ```Edit rules```
 * Edit to have the following rules ONLY: ```HTTP TPC 80```, ```Custom UDP 123``` and ```Custom TPC 2200```
 * Save
 
@@ -188,7 +188,7 @@ Inside venv3 run:
 * Run ```sudo nano /etc/apache2/sites-available/catalog.conf```
 * Add lines:
 
-<VirtualHost *:80>
+```<VirtualHost *:80>
     ServerName <PUBLIC IP address>
     ServerAlias www.<<PUBLIC IP address>.xip.io
     WSGIScriptAlias / /var/www/catalog/catalog.wsgi
@@ -204,7 +204,7 @@ Inside venv3 run:
     ErrorLog ${APACHE_LOG_DIR}/error.log
     LogLevel warn
     CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+</VirtualHost>```
 
 * Save and exit file
 
@@ -221,14 +221,14 @@ activate_this = '/var/www/catalog/catalog/venv3/bin/activate_this.py'
 with open(activate_this) as file_:
     exec(file_.read(), dict(__file__=activate_this))
 
-#!/usr/bin/python
+```#!/usr/bin/python
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0, "/var/www/catalog/")
 
 from catalog import app as application
-application.secret_key = "secretkey"
+application.secret_key = "secretkey"```
 
 * Save and exit file
 * Run ```sudo service apache2 restart```
