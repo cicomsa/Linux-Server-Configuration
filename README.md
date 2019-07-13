@@ -1,4 +1,4 @@
-# Linux web server deployment
+# Linux server configuration
 
 This is one of Udacity's Full Stack Web Developer Nanodegree Program 's projects using Linux - Ubuntu 16.04 LTS, [AWS Lightsail](https://lightsail.aws.amazon.com/), PostgreSQL and Apache. 
 The project involves deploying an already [created application](https://github.com/cicomsa/Catalog-App).
