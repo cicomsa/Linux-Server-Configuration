@@ -94,7 +94,7 @@ On ```grader```'s virtual machine server:
 * Restart SSH: ```sudo service ssh restart```
 * Run ```exit``` twice until back on your local machine server
 
-On your local machine server connect back to the instance as ```grader```with ````ssh -i ~/.ssh/grader_key -p 2200 grader@35.178.211.88``` where ```35.178.211.88``` is your instance's Public IP address and ```grader_key``` is the file in which the ssh-key was saved in
+On your local machine server connect back to the instance as ```grader``` with ````ssh -i ~/.ssh/grader_key -p 2200 grader@35.178.211.88``` where ```35.178.211.88``` is your instance's Public IP address and ```grader_key``` is the file in which the ssh-key was saved in
 
 ### Configure the local timezone to UTC
 
